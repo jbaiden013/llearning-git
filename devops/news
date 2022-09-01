@@ -1,0 +1,26 @@
+>>> for i in range(3):
+	print("===> Outer Loop")
+	print(f"i = {i}")
+	for j in range(2):
+		print("Inner Loop")
+		print(f"j = {j}")
+
+		
+===> Outer Loop
+i = 0
+Inner Loop
+j = 0
+Inner Loop
+j = 1
+===> Outer Loop
+i = 1
+Inner Loop
+j = 0
+Inner Loop
+j = 1
+===> Outer Loop
+i = 2
+Inner Loop
+j = 0
+Inner Loop
+j = 1
